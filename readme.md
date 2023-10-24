@@ -1,0 +1,3 @@
+1) Create a function which converts lenght, mass, time units from SI system to CGS. All arguments must hold default values if not provided.
+2) Create a program which takes 5 random number per 1 input.The create a function which takes the sum of those numbers (lets agree argument is being called 'num_sum'),and all those 5 numbers as separate free arguments as well. Multiply all those numbers with with the num_sum you calculated in a list data structure.
+3) Create lamba functions for these caclulations: - calculate circle radius - calculate average speed of the car (knowing distance and time passed to drive that distance) - calculate percentage of value if 5500 is equal 200%
