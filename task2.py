@@ -4,9 +4,9 @@
 # Multiply all those numbers with with the num_sum you calculated in a list
 # data structure.
 
-def numbers_action(num_sum: int, *argum) -> int:
+def numbers_action(num_sum: int, *args) -> int:
     num_multy: int = 1
-    for item in argum:
+    for item in args:
         num_multy *= item
     return num_multy*num_sum
 
@@ -14,6 +14,7 @@ user_numbers = input("Please enter 5 numbers seperated with ',' char: ")
 num_list = [int(num) for num in user_numbers.split(",")]
 num_list_sum = sum(num_list)
 print(numbers_action(num_list_sum, *num_list))
+
 
 
 # from typing import List
